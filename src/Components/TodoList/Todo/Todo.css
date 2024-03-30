@@ -1,0 +1,41 @@
+ol {
+    width: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    max-height: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-Icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.trash {
+    color: red;
+}
+
+.check {
+    color: green;
+}
